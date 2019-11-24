@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+  
+  <!-- /Nav -->
+    <div class="topnav">
+        <a class="active" href="#home">Home</a>
+        <a href="#port">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+  <!-- /IMG Section -->
+    <div class="hero-section" id="port">
+        <div class="hero-section-text">
+          <h1>KRAN'S WORK</h1>
+          <h5>Stop by | Say Hi | Work Begins</h5>
+        </div>
+      </div>
+
+  
+  <!-- /Portfolio Section -->
+      <div class="container">
+
+        <h1 class="font-weight-light text-center text-lg-left mt-4 mb-0 text-center text-uppercase">Portfolio</h1>
+      
+        <hr class="mt-2 mb-5">
+      
+        <div class="row text-center text-lg-left">
+      
+          <div class="col-lg-3 col-md-4 col-6">
+            <a href="https://magarman.github.io/Recipes/" target="_blank" class="d-block mb-4 h-100">
+                  <img class="img-fluid img-thumbnail" src="assets/work1.jpg" alt="">
+                </a>
+          </div>
+          <div class="col-lg-3 col-md-4 col-6">
+            <a href="https://saabsuwan.github.io/traintable/" target="_blank" class="d-block mb-4 h-100">
+                  <img class="img-fluid img-thumbnail" src="assets/work2.jpg" alt="">
+                </a>
+          </div>
+          <div class="col-lg-3 col-md-4 col-6">
+            <a href="https://saabsuwan.github.io/TriviaGame/" target="_blank"  class="d-block mb-4 h-100">
+                  <img class="img-fluid img-thumbnail" src="assets/work3.jpg" alt="">
+                </a>
+          </div>
+          <div class="col-lg-3 col-md-4 col-6">
+            <a href="https://saabsuwan.github.io/Psychic-Game/" class="d-block mb-4 h-100">
+                  <img class="img-fluid img-thumbnail" src="assets/work4.jpg" alt="">
+                </a>
+          </div>
+          <div class="col-lg-3 col-md-4 col-6">
+            <a href="https://gymbeat.herokuapp.com" target="_blank"  class="d-block mb-4 h-100">
+                  <img class="img-fluid img-thumbnail" src="assets/work5.jpg" alt="">
+                </a>
+          </div>
+          <div class="col-lg-3 col-md-4 col-6">
+            <a href="https://www.youtube.com/watch?v=ao1f7gw6SSI&feature=youtu.be" target="_blank" class="d-block mb-4 h-100">
+                  <img class="img-fluid img-thumbnail" src="assets/work6.jpg" alt="">
+                </a>
+          </div>
+          <div class="col-lg-3 col-md-4 col-6">
+            <a href="http://www.udessertstorysf.com/" target="_blank"  class="d-block mb-4 h-100">
+                  <img class="img-fluid img-thumbnail" src="assets/work7.jpg" alt="">
+                </a>
+          </div>
+          <div class="col-lg-3 col-md-4 col-6">
+            <a href="https://www.smilepos.com" target="_blank" class="d-block mb-4 h-100">
+                  <img class="img-fluid img-thumbnail" src="assets/work8.jpg" alt="">
+                </a>
+          </div>  
+        </div>  
+      </div>
+      <!-- /End Portfolio -->
+
+  <!-- /Contact Form Section-->
+
+      <section class="Material-contact-section section-padding section-dark" id="contact">
+        <div class="container">
+            <div class="row">
+                <!-- Section Titile -->
+                <div class="col-md-12 wow animated fadeInLeft" data-wow-delay=".2s">
+                    <h1 class="section-title">KRAN'S WORK</h1>
+                </div>
+            </div>
+            <div class="row">
+                <!-- Section Titile -->
+                <div class="col-md-6 mt-3 contact-widget-section2 wow animated fadeInLeft" data-wow-delay=".2s">
+                  
+               
+                  <h5>Stop by | Say Hi | Work Begins</h5>
+                
+                </div>
+                <!-- contact form -->
+                <div class="col-md-6 wow animated fadeInRight" data-wow-delay=".2s">
+                    <form class="shake" role="form" method="post" id="contactForm" name="contact-form" data-toggle="validator">
+                        <!-- Name -->
+                        <div class="form-group label-floating">
+                          <label class="control-label" for="name">Name</label>
+                          <input class="form-control" id="name" type="text" name="name" required data-error="Please enter your name">
+                          <div class="help-block with-errors"></div>
+                        </div>
+                        <!-- email -->
+                        <div class="form-group label-floating">
+                          <label class="control-label" for="email">Email</label>
+                          <input class="form-control" id="email" type="email" name="email" required data-error="Please enter your Email">
+                          <div class="help-block with-errors"></div>
+                        </div>
+                        <!-- Subject -->
+                        <div class="form-group label-floating">
+                          <label class="control-label">Subject</label>
+                          <input class="form-control" id="msg_subject" type="text" name="subject" required data-error="Please enter your message subject">
+                          <div class="help-block with-errors"></div>
+                        </div>
+                        <!-- Message -->
+                        <div class="form-group label-floating">
+                            <label for="message" class="control-label">Message</label>
+                            <textarea class="form-control" rows="3" id="message" name="message" required data-error="Write your message"></textarea>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <!-- Form Submit -->
+                        <div class="form-submit mt-5">
+                            <button class="btn btn-common" type="submit" id="form-submit"><i class="material-icons mdi mdi-message-outline"></i> Send Message</button>
+                            <div id="msgSubmit" class="h3 text-center hidden"></div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+      </section>
+
+  <!-- /Footer -->
+      <div class="footer">
+        <p>All Right Reserved | KRAN'S WORK</p>
+      </div>
+
+</body>
+</html>
